@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<title>Trivia Game</title>
+ 	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+ 	<link rel="stylesheet" type="text/css" href="assets/Css/style.css">
+
+
+ </head>
+<body>
+
+  <div id="TriviaContainer" class="container">
+  	<div class="title">Trivia Game</div>
+  	<div id="Question" class="question"></div>
+  	<label class="option"><input type="radio" name="option" vaule="1" /> <span id="opt1"></span></label>
+  	<label class="option"><input type="radio" name="option" vaule="2" /> <span id="opt2"></span></label>
+  	<label class="option"><input type="radio" name="option" vaule="3" /> <span id="opt3"></span></label>
+    <label class="option"><input type="radio" name="option" vaule="4" /> <span id="opt4"></span></label>
+    <button id="nextButton" class="next-btn" onclick="loadnextquestion();">Next Question</button>
+</div>
+<div id="result" class="container result" style="display:none;">
+</div>  
+<script type="text/javascript" src="assets/javascript/app.js">
+<script type="text/javascript" src="assets/javascript/JavaScript.js">
+
+</script>
+</body>
+</html>
